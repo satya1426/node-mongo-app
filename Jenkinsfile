@@ -5,6 +5,7 @@ pipeline {
         DOCKER_HUB = "satya1426"
         IMAGE_NAME = "node-mongo-app"
         KUBECONFIG = '/home/satya/.kube/config'
+        HOME = '/home/satya'
     }
 
     stages {
