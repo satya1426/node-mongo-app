@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKER_HUB = "satya1426"
         IMAGE_NAME = "node-mongo-app"
-        KUBECONFIG = "/var/lib/jenkins/.kube/config"
+        KUBECONFIG = '/home/satya/.kube/config'
     }
 
     stages {
